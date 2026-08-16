@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class loop {
     public static void main(String[] args) {
 
@@ -76,15 +77,75 @@ public class loop {
 
         /* *************** NESTED WHILE LOOP ******** */
 
-        int i=1;
-        while(i<=2){
-            int j=1;
-            while(j<=3){
-                System.out.println("i="+ i +" , j = " + j);
-                j++;
-            }
-            i++;
-        }
+//        int i=1;
+//        while(i<=2){
+//            int j=1;
+//            while(j<=3){
+//                System.out.println("i="+ i +" , j = " + j);
+//                j++;
+//            }
+//            i++;
+//        }
+
+
+        /* ************ Do-While loop  *********** */
+
+//        int i=5;
+//        do {
+//            System.out.println("Avanish Yadav");
+//            i++;
+//        } while (i<=10);
+
+//        int i=1;
+//        do {
+//            System.out.println(i);
+//            i++;
+//        } while (i<=10);
+
+//        int i = 1;
+//        do {
+//            System.out.println(i);
+//            i++;
+//        } while (i <= 5);
+
+
+
+        /* ******** Home Works *********** */
+
+        // 1. print counting from 1 to n
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number you want to print ");
+//        int n = sc.nextInt();
+
+//        for (int i=1;i<=n;i++)
+//        {
+//            System.out.println(i);
+//        }
+
+
+        /// 2. n to 1
+//        int n = sc.nextInt();
+
+//        while(n>0)
+//        {
+//            System.out.println(n);
+//            n--;
+//        }
+
+
+        // 3. print the multiple of n
+//        int n = sc.nextInt();
+
+//        for(int i=1; i<=10 ; i++)
+//        {
+//            System.out.println(n*i);
+//
+//        }
+
+//        for(int i = 1; i<= 100; i++){
+//            System.out.println("Avanish Yadav");
+//        }
+
 
 
 
