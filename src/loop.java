@@ -5,5 +5,6 @@ public class loop {
             System.out.println(i);
             i++;
         }
+
     }
 }
