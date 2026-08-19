@@ -106,14 +106,66 @@ public class pattern {
 //            System.out.println();
 //
 //        }
-        
 
 
-        int n=5;
-        for (int row = 1; row <= n ; row++) {
+//        int n=5;
+//        for (int row = 1; row <= n ; row++) {
+//
+//            if(row==1 || row ==2 || row==5){
+//                for (int i = 1; i <= row ; i++) {
+//                    System.out.print("* ");
+//                }
+//            }
+//            else{
+//                 // middle rows
+//                System.out.print("* ");
+//                // (row-2) spaces
+//                for (int col = 1; col<=(row-2) ; col++) {
+//                    System.out.print(" ");
+//                }
+//
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+//        int n = 5;
+//
+//        for (int row = 1; row <= n; row++) {
+//
+//            // Spaces
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print(" ");
+//            }
+//
+//            // First and last row
+//            if (row == 1 || row == n) {
+//
+//                for (int col = 1; col <= 2 * row - 1; col++) {
+//                    System.out.print("*");
+//                }
+//
+//            } else {
+//
+//                // First star
+//                System.out.print("*");
+//
+//
+//            }
+//
+//
+//        }
 
 
-        }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,5 +179,4 @@ public class pattern {
 
 
     }
-
 }
