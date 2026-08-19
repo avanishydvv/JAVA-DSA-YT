@@ -156,8 +156,19 @@ public class pattern {
 //
 //        }
 
-         // till  1:10:52 lec 11
-
+//        int n =5;
+//        for (int row = 1; row <=n ; row++) {
+//            for (int col = 1; col <=row ; col++) {
+//                System.out.print(col+" ");
+//            }
+//            System.out.println();
+//        }
+//        output
+//        1
+//        1 2
+//        1 2 3
+//        1 2 3 4
+//        1 2 3 4 5
 
 
 
