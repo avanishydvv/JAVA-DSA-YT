@@ -171,8 +171,39 @@ public class pattern {
 //        1 2 3 4 5
 
 
+//        int n =5,count=1;
+//        for (int row = 1; row <=n ; row++) {
+//            for (int col = 1; col <=row ; col++) {
+//                System.out.print(count+" ");
+//                count++;
+//            }
+//            System.out.println();
+//        }
+////  output
+//        1
+//        2 3
+//        4 5 6
+//        7 8 9 10
+//        11 12 13 14 15
 
+//        int n =5;
+//        for (int row = 1; row <=n ; row++) {
+//            for (int col = 1; col <=row ; col++) {
+//                int a = col;
+//                int b = ('A'-1);
+//                int ans = a+b;
+//                char finalAns = (char)ans;
+//                System.out.print(finalAns + " ");
+//            }
+//            System.out.println();
+//        }
 
+        // output
+//        A
+//        A B
+//        A B C
+//        A B C D
+//        A B C D E
 
 
 
