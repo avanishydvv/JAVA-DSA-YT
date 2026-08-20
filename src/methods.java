@@ -3,5 +3,22 @@ public class methods {
 
         /* Methods in java  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
