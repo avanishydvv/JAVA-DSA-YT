@@ -8,9 +8,21 @@ public class methods {
         }
     }
 
+   static void multiply(int a, int b)
+    {
+        int ans=a*b;
+        System.out.println(ans);
+        return;
+    }
+
     static void sum(int x,int y)
     {
         System.out.println("sum:"+ (x+y) );
+    }
+    static int add(int a,int b)
+    {
+        int sum=a+b;
+        return sum;
     }
     public static void main(String[] args) {
 
@@ -19,7 +31,10 @@ public class methods {
 //        print2kaTable();
 //        System.out.println("bye");
 //          sum(5,10);
-
+//        multiply(5,6);
+//        System.out.println(add(2,3));
+        int result = add(2,5);
+        System.out.println(result);
 
 
 
