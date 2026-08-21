@@ -75,6 +75,22 @@ public class array {
 //        }
 //        System.out.println("The max value in this array is :"+ max);
 
+//        int arr[]={3,1,2,4,5,8,0,40};
+//        int n=arr.length;
+//        int min = arr[0];
+//        for (int i = 0; i <= n-1 ; i++) {
+//            if(arr[i]<min)
+//            {
+//                min=arr[i];
+//            }
+//        }
+//        System.out.println("The min value in this array is :"+ min);
+
+
+
+
+
+
 
 
     }
