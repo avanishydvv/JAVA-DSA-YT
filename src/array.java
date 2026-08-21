@@ -132,24 +132,50 @@ public class array {
 //            }
 //            System.out.println();
 //        }
+//
+//        int[][] brr ={
+//                {1,3},
+//                {2,3,4,6},
+//                {4,5,42,5,8,3,4},
+//                {7,8,4}
+//        };
+//
+//        int rowLength= brr.length;
+//        int colLength= brr[0].length;
+//        for (int row = 0; row <= rowlength -1 ; row++) {
+//            for (int col = 0; col <= colLength-1 ; col++) {
+//
+//            }
+//        }
 
-        int[][] brr ={
-                {1,3},
-                {2,3,4,6},
-                {4,5,42,5,8,3,4},
-                {7,8,4}
-        };
+//        int[][] matrix = {
+//                   {1, 2, 3},
+//                    {4, 5, 6}
+//                };
+//
+//        for (int j = 0; j < matrix.length; j++) {
+//               for (int i = 0; i < matrix.length; i++) {
+//                       System.out.print(matrix[i][j] + " ");
+//                   }
+//                System.out.println();
+//            }
 
-        int rowLength= brr.length;
-        int colLength= brr[0].length;
-        for (int row = 0; row <= rowlength -1 ; row++) {
-            for (int col = 0; col <= colLength-1 ; col++) {
+        int arr[][];
+        arr=new int[3][4];
 
+        for (int i = 0; i <= arr.length ; i++) {
+            for (int j = 0; j <= arr[i].length; j++) {
+                System.out.println("Provide value for row index i : "+ i +"And value for column index "+ j);
+                arr[i][j]= sc.nextInt();
             }
         }
 
-
-
+        for (int i = 0; i <= arr.length ; i++) {
+            for (int j = 0; j <= arr[i].length; j++) {
+                System.out.print(arr[i][j]);
+            }
+            System.out.println();
+        }
 
 
 
