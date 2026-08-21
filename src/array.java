@@ -133,7 +133,20 @@ public class array {
 //            System.out.println();
 //        }
 
+        int[][] brr ={
+                {1,3},
+                {2,3,4,6},
+                {4,5,42,5,8,3,4},
+                {7,8,4}
+        };
 
+        int rowLength= brr.length;
+        int colLength= brr[0].length;
+        for (int row = 0; row <= rowlength -1 ; row++) {
+            for (int col = 0; col <= colLength-1 ; col++) {
+
+            }
+        }
 
 
 
