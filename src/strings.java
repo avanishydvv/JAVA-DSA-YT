@@ -30,17 +30,19 @@ public class strings {
 //        String str2=sc.next();
 //        System.out.println("Value: "+ str2);
 
-        String str="babbar";
-        System.out.println(str.length());
-        System.out.println(str.charAt(3));
-        String name="BABBAR";
-        System.out.println(str.equals(name));
-        System.out.println(str.equalsIgnoreCase(name));
-        String trim="   Avanish  ";
-        System.out.println(trim.length());
-        trim=trim.trim();
-        System.out.println(trim.length());
+//        String str="babbar";
+//        System.out.println(str.length());
+//        System.out.println(str.charAt(3));
+//        String name="BABBAR";
+//        System.out.println(str.equals(name));
+//        System.out.println(str.equalsIgnoreCase(name));
+//        String trim="   Avanish  ";
+//        System.out.println(trim.length());
+//        trim=trim.trim();
+//        System.out.println(trim.length());
 
+        String str="hello";
+        for(str:)
 
 
 
