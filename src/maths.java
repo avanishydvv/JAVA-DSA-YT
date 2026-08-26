@@ -117,6 +117,37 @@ public class maths {
             return false;
         }
     }
+
+    static boolean checkPerfectNumber(int num)
+    {
+        int sum=1;
+
+        for (int i = 2; i*i<=num ; i++) {
+            if(num % i==0)
+            {
+                int firstFactor=i;
+                int secondFactor= num/i;
+                sum = sum + firstFactor + secondFactor;
+            }
+        }
+        if(sum==num)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    static void printAllprime(int n)
+    {
+        // check wheather a no is prime or not
+        int num=5;
+        for (int i = 2; i*i <=num ; i++) {
+            if(num%i==0){
+                return false;
+            }
+        }
+    }
     public static void main(String[] args) {
 
 //        int num=455789145;
@@ -139,6 +170,7 @@ public class maths {
 
 
 //        System.out.println(armstrong(153));
+//        System.out.println(checkPerfectNumber(6));
 
 
 
