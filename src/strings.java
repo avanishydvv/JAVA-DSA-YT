@@ -41,8 +41,7 @@ public class strings {
 //        trim=trim.trim();
 //        System.out.println(trim.length());
 
-        String str="hello";
-        for(str:)
+
 
 
 
