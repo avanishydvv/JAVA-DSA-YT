@@ -140,13 +140,20 @@ public class maths {
     }
     static void printAllprime(int n)
     {
-        // check wheather a no is prime or not
-        int num=5;
-        for (int i = 2; i*i <=num ; i++) {
-            if(num%i==0){
-                return false;
+        for (int num = 2; num <=n ; num++) {
+            boolean isPrime = checkPrime(num);
+            if(isPrime == true)
+            {
+                System.out.println(num);
             }
         }
+        // check wheather a no is prime or not
+//        int num=5;
+//        for (int i = 2; i*i <=num ; i++) {
+//            if(num%i==0){
+//                return false;
+//            }
+//        }
     }
     public static void main(String[] args) {
 
@@ -171,7 +178,7 @@ public class maths {
 
 //        System.out.println(armstrong(153));
 //        System.out.println(checkPerfectNumber(6));
-
+        printAllprime(100);
 
 
 
