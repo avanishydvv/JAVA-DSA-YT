@@ -78,10 +78,48 @@ public class maths {
         return true;
     }
 
+    static int getGCD(int a, int b){
+        //gcd(a,b)=gcd(b,a%b);
+        while(b!=0)
+        {
+            int oldValueOfb =b;
+            b=a%b;
+            a=oldValueOfb;
+        }
+        int ans=a;
+        return ans;
+    }
+    static int LCM(int a,int b){
+        int gcd=getGCD(a,b);
+        //gcd(18,12)=6
+        int prod=a*b;
+        // prod=216
+        int lcm=prod/gcd;
 
+        return lcm;
+    }
+
+    static boolean armstrong(int num)
+    {
+        int originalNum=num;
+        int digit,sum=0;
+        while (num!=0)
+        {
+            digit=num%10;
+            int cubeDigit = digit*digit*digit;
+            sum=sum+cubeDigit;
+            num=num/10;
+        }
+        if(sum == originalNum)
+        {
+            return true;
+        }else{
+            return false;
+        }
+    }
     public static void main(String[] args) {
 
-        int num=455789145;
+//        int num=455789145;
        //printnum(num);
 //       int ans =countNum(num);
 //       System.out.println(ans);
@@ -96,7 +134,11 @@ public class maths {
 //        int n=11;
 //        System.out.println(checkPrime(n));
 
+//        System.out.println(getGCD(18,12));
+//        System.out.println(LCM(18,12));
 
+
+//        System.out.println(armstrong(153));
 
 
 
