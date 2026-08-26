@@ -57,11 +57,28 @@ public class maths {
             System.out.println("The number is not palindrome");
         }
     }
-
-    static boolean checkPrime()
+// prime or not
+    static boolean checkPrime(int num)
     {
+        for (int i = 2; i*i <=num ; i++) {
+            if(num%i==0)
+            {
+                // not a prime
+                return false;
+            }
+        }
+//        for (int i = 2; i < num-1; i++) {
+//            if(num%i==0)
+//            {
+//                // not a prime
+//                return false;
+//            }
+//        }
 
+        return true;
     }
+
+
     public static void main(String[] args) {
 
         int num=455789145;
@@ -76,7 +93,8 @@ public class maths {
 //        System.out.println(ans);
 //        int n=121;
 //        palindrom(n);
-
+//        int n=11;
+//        System.out.println(checkPrime(n));
 
 
 
