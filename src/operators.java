@@ -12,6 +12,8 @@ public class operators {
 //                int average = solvedThisWeek / 7;
 //                int remainder = solvedThisWeek % 7;
 //
+
+//
 //                System.out.println(total);
 //                System.out.println(difference);
 //                System.out.println(projected);
