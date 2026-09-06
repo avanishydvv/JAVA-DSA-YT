@@ -20,7 +20,7 @@ public class app {
 
         // parameterised ctor
 
-//        student A = new student(25,12,"Avanish",5);
+        student A = new student(25,12,"Avanish",5);
 //
 //        System.out.println(A.name);
 //        System.out.println(A.nos);
@@ -32,10 +32,18 @@ public class app {
 //        A.sleep();
 
 
-        int a = 6;
-        int b = a;
+        // copy ctor
 
+        student B = new student(A);
 
+        System.out.println(B.name);
+        System.out.println(B.nos);
+        System.out.println(B.id);
+        System.out.println(B.age);
+
+        B.bunk();
+        B.study();
+        B.sleep();
 
 
 

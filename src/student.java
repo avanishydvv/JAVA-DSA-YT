@@ -23,6 +23,15 @@ public class student {
         this.nos=nos;
     }
 
+    // Copy  ctor
+    public student(student srcobj){   // srcobj -> A
+        System.out.println("Student Copy ctor Called");
+        this.id= srcobj.id;
+        this.name= srcobj.name;
+        this.age= srcobj.age;
+        this.nos= srcobj.nos;
+    }
+
 
     // Methods / behaviour
     public void study(){
