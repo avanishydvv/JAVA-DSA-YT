@@ -25,7 +25,7 @@ public class student {
 
     // Copy  ctor
     public student(student srcobj){   // srcobj -> A
-        System.out.println("Student Copy ctor Called");
+        System.out.println("Student Copyl ctor Called");
         this.id= srcobj.id;
         this.name= srcobj.name;
         this.age= srcobj.age;
@@ -45,4 +45,13 @@ public class student {
     public void bunk(){
         System.out.println(name + " Bunking");
     }
+
+
+
+
+
+
+
+
+
 }
