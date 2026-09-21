@@ -20,30 +20,32 @@ public class app {
 
         // parameterised ctor
 
-        student A = new student(25,12,"Avanish",5);
+        student A = new student(25,12,"Avanish",5,"tina");
 //
-//        System.out.println(A.name);
-//        System.out.println(A.nos);
-//        System.out.println(A.id);
-//        System.out.println(A.age);
-//
-//        A.bunk();
-//        A.study();
-//        A.sleep();
+        System.out.println(A.name);
+        System.out.println(A.nos);
+        System.out.println(A.id);
+        System.out.println(A.age);
+        System.out.println(A.gf);
+
+        A.bunk();
+        A.study();
+        A.sleep();
+        A.gfChatting();
 
 
         // copy ctor
 
-        student B = new student(A);
+//        student B = new student(A);
+//
+//        System.out.println(B.name);
+//        System.out.println(B.nos);
+//        System.out.println(B.id);
+//        System.out.println(B.age);
 
-        System.out.println(B.name);
-        System.out.println(B.nos);
-        System.out.println(B.id);
-        System.out.println(B.age);
-
-        B.bunk();
-        B.study();
-        B.sleep();
+//        B.bunk();
+//        B.study();
+//        B.sleep();
 
 
 

@@ -6,6 +6,7 @@ public class student {
     public int age;
     public String name;
     public int nos;
+    private String gf;
 
 
     // Default constructor(ctor)//attributrs => garbage
@@ -15,12 +16,13 @@ public class student {
 //    }
 
     // parameterised ctor
-    public student(int id, int age,String name,int nos){
+    public student(int id, int age,String name,int nos,String gf){
         System.out.println("Student default ctor Called");
         this.id=id;
         this.name=name;
         this.age=age;
         this.nos=nos;
+        this.gf=gf;
     }
 
     // Copy  ctor
@@ -46,7 +48,9 @@ public class student {
         System.out.println(name + " Bunking");
     }
 
-
+    private void gfChatting(){
+        System.out.println(name + "gfChatting");
+    }
 
 
 
