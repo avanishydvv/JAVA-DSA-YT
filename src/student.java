@@ -8,6 +8,9 @@ public class student {
     public int nos;
     private String gf;
 
+    public String getName(){
+        return this.name;
+    }
 
     // Default constructor(ctor)//attributrs => garbage
 
