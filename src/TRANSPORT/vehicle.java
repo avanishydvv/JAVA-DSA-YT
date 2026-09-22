@@ -7,7 +7,7 @@ public class vehicle {
 
     public int noOfTyres;
 
-    vehicle(){
+    public vehicle(){
         this.name = "";
         this.model = "";
         this.noOfTyres= -1;
