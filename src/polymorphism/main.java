@@ -27,6 +27,8 @@ public class main {
         doDrawingStuff(r);
 
 
+
+
     }
 
     public static void doDrawingStuff(shape s){
