@@ -54,7 +54,11 @@ interface Bird{
 
     void eat();
 
+    default void sleep(){
+        System.out.println("Bird sleeps");
+    }
 }
+
 
 
 class sparrow implements Bird {
@@ -87,6 +91,7 @@ public class main {
     public static void doBirdStuff(Bird b){
         b.eat();
         b.fly();
+        b.sleep();
     }
 
     public static void main(String[] args) {
