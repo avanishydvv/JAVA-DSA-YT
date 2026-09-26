@@ -88,6 +88,7 @@ public class main {
         b.eat();
         b.fly();
     }
+
     public static void main(String[] args) {
         doBirdStuff(new sparrow());
         doBirdStuff(new Crow());
