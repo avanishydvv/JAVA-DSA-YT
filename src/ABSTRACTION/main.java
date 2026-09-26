@@ -47,6 +47,52 @@
 
 // interface
 
+package ABSTRACTION;
+
+interface Bird{
+    void fly();
+
+    void eat();
+
+}
+
+
+class sparrow implements Bird {
+    @Override
+    public void fly() {
+        System.out.println("Sparrow is flying");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Sparrow is eating");
+    }
+}
+
+class Crow implements Bird {
+    @Override
+    public void fly() {
+        System.out.println("Crow flying");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Crow eating ");
+    }
+}
+
+
+
+public class main {
+    public static void doBirdStuff(Bird b){
+        b.eat();
+        b.fly();
+    }
+    public static void main(String[] args) {
+        doBirdStuff(new sparrow());
+        doBirdStuff(new Crow());
+    }
+}
 
 
 
