@@ -73,9 +73,10 @@ public class main {
             System.out.println(obj);
         }
 
-        // contains
+        // contains ye check karta hai ki element
+        // list me present hai ya nahi hai
 
-
+        System.out.println(list3.contains(110));
 
 
 
