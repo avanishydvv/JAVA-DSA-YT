@@ -85,10 +85,19 @@ public class main {
         Collections.sort(list);
         System.out.println("Printing Entire List "+ list);
 
+        // HW -> how can we sort nin descending order
 
+        ArrayList<Integer> newlist = (ArrayList<Integer>)list.clone();
 
+        System.out.println("Printing Entire new List "+newlist);
 
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.ensureCapacity(100);
 
+        System.out.println(newlist.isEmpty());
+        System.out.println(marks.isEmpty());
+
+        System.out.println(newlist.indexOf(40));
 
 
 
