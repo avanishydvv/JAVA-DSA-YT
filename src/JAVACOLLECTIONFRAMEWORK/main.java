@@ -1,9 +1,6 @@
 package JAVACOLLECTIONFRAMEWORK;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
@@ -53,6 +50,8 @@ public class main {
 
 
 
+
+
         List<Integer> list3 = new ArrayList<>();
 
         list3.add(11);
@@ -79,6 +78,12 @@ public class main {
         System.out.println(list3.contains(110));
 
 
+        list.add(12);
+        list.add(6);
+        System.out.println("Printing Entire List "+ list);
+        // sort an array list
+        Collections.sort(list);
+        System.out.println("Printing Entire List "+ list);
 
 
 
@@ -88,8 +93,6 @@ public class main {
 
 
 
-
-//        Collection<Integer> collection = new ArrayList<>();
 
     }
 
