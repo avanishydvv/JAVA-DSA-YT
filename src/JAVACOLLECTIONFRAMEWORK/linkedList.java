@@ -135,6 +135,15 @@ public class linkedList {
         System.out.println("Printing Entire List  "+ ll);
 
 
+        // vector list
+        // vector list me sab methods same rahenge lagbagh lagbhag
+        Vector<Integer>  v = new Vector<>();
+        v.add(60);
+        v.add(70);
+        v.add(80);
+        v.add(90);
+
+        System.out.println("Printing Entire Vector  "+ v);
 
     }
 }
