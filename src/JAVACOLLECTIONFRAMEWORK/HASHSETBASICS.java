@@ -3,10 +3,32 @@ package JAVACOLLECTIONFRAMEWORK;
 import com.sun.security.jgss.GSSUtil;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class HASHSETBASICS {
     public static void main(String[] args) {
+
+
+        HashSet<Student> set = new HashSet<>();
+
+        Student s1 = new Student(1, "Avanish");
+        Student s2 = new Student(1, "Avanish");
+        Student s3 = new Student(1, "Avanish");
+
+        set.add(s1);
+        set.add(s2);
+        set.add(s3);
+
+        System.out.println(set);
+
+
+
+
+
+
+
 
 //        Set<Integer> set1 = new HashSet<>();
 //        Set<Integer> set2 = new HashSet<>();
@@ -39,25 +61,41 @@ public class HASHSETBASICS {
 
 
 
-        Set<Integer> st = new HashSet<>();
-        // duplicate element ko hashset ek hi baar
-        // store karta hai
-        // ye order preserve nahi karta result random order me milega
-        st.add(10);
-        st.add(10);
-        st.add(10);
-        st.add(30);
-        st.add(30);
-        st.add(30);
-        st.add(40);
-        st.add(40);
-        st.add(40);
+//        Set<Integer> st = new LinkedHashSet<>();
+//        // duplicate element ko hashset ek hi baar
+//        // store karta hai
+//        // ye order preserve nahi karta result random order me milega
+//
+//        st.add(470);
+//        st.add(10);
+//        st.add(10);
+//        st.add(10);
+//        st.add(30);
+//        st.add(30);
+//        st.add(30);
+//        st.add(40);
+//        st.add(40);
+//        st.add(40);
+//
+//        System.out.println(st);
 
-        System.out.println(st);
+
+//        Set<Integer> st = new TreeSet<>();
+//
+//        st.add(10);
+//        st.add(10);
+//        st.add(20);
+//        st.add(20);
+//        st.add(30);
+//
+//        System.out.println(st);
 
 
 
 
+        // HASHSET -> o(1)
+        // LinkedHashSet -> o(n)
+        // TreeSet -> BST -> O(Logn)
 
     }
 }
