@@ -47,11 +47,6 @@ public class linkedList {
         }
 
 
-
-
-
-
-
         List<Integer> list3 = new LinkedList<>();
 
         list3.add(11);
@@ -86,6 +81,58 @@ public class linkedList {
         System.out.println("Printing Entire List "+ list);
 
         // HW -> how can we sort nin descending order
+//
+//      this method is not correct
+
+//        LinkedList<Integer> newlist = (LinkedList<Integer>)list.clone();
+
+//        System.out.println("Printing Entire new List "+newlist);
+//
+//        ArrayList<Integer> marks = new ArrayList<>();
+//        marks.ensureCapacity(100);
+//
+//        System.out.println(newlist.isEmpty());
+//        System.out.println(marks.isEmpty());
+//
+//        System.out.println(newlist.indexOf(40));
+
+
+//        System.out.println(list.indexOf(40));
+
+
+        System.out.println(list.lastIndexOf(40));
+
+        System.out.println("Printing Entire List "+ list);
+        list.remove(3);
+//        list.remove(3);
+//        list.remove(3);
+
+        list.addFirst(1050);
+        list.addLast(999);
+
+        System.out.println("Printing Entire List "+ list);
+
+        LinkedList<Integer> ll = new LinkedList<>();
+        ll.addFirst(99);
+        ll.addFirst(95);
+        ll.addFirst(78);
+
+        ll.addLast(458);
+
+        System.out.println("Printing Entire List before poll "+ ll);
+        System.out.println(ll.poll());
+        System.out.println("Printing Entire List after poll "+ ll);
+        ll.peek();
+        System.out.println("Printing Entire List  after peek"+ ll);
+
+        ll.addLast(69);
+
+        System.out.println("Printing Entire List  "+ ll);
+
+        // offer ll me right me elemnt add kar deta hai addlast() ke jaise
+
+        ll.offer(59);
+        System.out.println("Printing Entire List  "+ ll);
 
 
 
