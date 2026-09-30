@@ -143,7 +143,31 @@ public class linkedList {
         v.add(80);
         v.add(90);
 
+        v.addFirst(50);
         System.out.println("Printing Entire Vector  "+ v);
 
+
+        Stack<Integer>  st = new Stack<>();
+
+        System.out.println("Printing Entire Stack  "+ st);
+
+        st.push(60);
+        st.push(70);
+        st.push(80);
+        st.push(90);
+
+        System.out.println("Printing Entire Stack  "+ st);
+
+        st.pop();
+
+        System.out.println("Printing Entire Stack  "+ st);
+
+
+        System.out.println("Printing Entire Stack  "+ st);
+
+        Stack<String> str = new Stack<>();
+
+        str.push("Avanish");
+        str.push("Amit");
     }
 }
