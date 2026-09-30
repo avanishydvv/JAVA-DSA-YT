@@ -162,12 +162,24 @@ public class linkedList {
 
         System.out.println("Printing Entire Stack  "+ st);
 
+        st.peek();
+        System.out.println("Printing Entire Stack  "+ st);
+
+        System.out.println(st.search(80));
+        // jo element found hoga 1ya uske index ke hissab se
+        // de dega jaise 80 agar top par hai to 1 aayega output
+        // aur agar nahi mila element to -1 return kar dega
+
 
         System.out.println("Printing Entire Stack  "+ st);
 
-        Stack<String> str = new Stack<>();
 
-        str.push("Avanish");
-        str.push("Amit");
+
+//        Stack<String> str = new Stack<>();
+//
+//        str.push("Avanish");
+//        str.push("Amit");
+//
+//        System.out.println(str);
     }
 }
