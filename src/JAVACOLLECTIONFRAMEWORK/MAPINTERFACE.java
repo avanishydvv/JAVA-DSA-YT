@@ -1,0 +1,96 @@
+package JAVACOLLECTIONFRAMEWORK;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static java.lang.System.in;
+
+public class MAPINTERFACE {
+    public static void main(String[] args) {
+
+        // MAP
+        Map<String,String> map = new HashMap<>();
+
+        //insertion
+        map.put("in","India");
+        map.put("in","India2");
+        map.put("us","USA");
+        map.put("en","England");
+
+        System.out.println(map);
+
+
+        Map<String,String> table = new HashMap<>();
+        table.put("br","brazil");
+        System.out.println("Before :"+table);
+        table.put("fr","france");
+
+        table.putAll(map);
+        System.out.println("After :"+table);
+
+        // deletion
+
+        table.remove("in");
+        System.out.println(table);
+
+//        System.out.println(table.size());
+//        table.clear();
+//        System.out.println(table.size());
+
+//        table.putIfAbsent("is","India4");
+//        System.out.println(table);
+
+        System.out.println(table.get("br"));
+
+        System.out.println(table.getOrDefault("usa","none"));
+
+        System.out.println(table.containsKey("us"));
+
+        System.out.println(table.containsValue("france"));
+
+        System.out.println(table);
+
+        table.replace("br","indonesia");
+
+        System.out.println(table);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
