@@ -1,7 +1,9 @@
 package JAVACOLLECTIONFRAMEWORK;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 import static java.lang.System.in;
 
@@ -55,8 +57,17 @@ public class MAPINTERFACE {
         System.out.println(table);
 
 
+        Set<String> keyset = table.keySet();
+        System.out.println(keyset);
 
+        Collection<String> valueset = table.values();
+        System.out.println(valueset);
 
+        // get all the entries from the map
+
+        Set<Map.Entry<String,String>> entryset = table.entrySet();
+
+        System.out.println(entryset);
 
 
 
