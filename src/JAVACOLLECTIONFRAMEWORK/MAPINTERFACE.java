@@ -67,7 +67,20 @@ public class MAPINTERFACE {
 
         Set<Map.Entry<String,String>> entryset = table.entrySet();
 
-        System.out.println(entryset);
+        System.out.println("Printing Entries : "+entryset);
+
+        Map<Integer,String> map2 = new HashMap<>();
+
+        map2.put(1,"One");
+        map2.put(2,"Two");
+        map2.put(3,"Three");
+
+//        for (Map.entry<Integer,String> entry : map2.entrySet()  ) {
+//
+//            System.out.println("Key : "+ entry.getKey() + "Values: "+ entry.getValue());
+//        }
+
+
 
 
 
