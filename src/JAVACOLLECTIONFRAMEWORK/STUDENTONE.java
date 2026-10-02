@@ -1,6 +1,6 @@
 package JAVACOLLECTIONFRAMEWORK;
 
-public class STUDENTONE {
+public class STUDENTONE implements Comparable{
     public int age;
     public String name;
     public int weight;
@@ -45,7 +45,18 @@ public class STUDENTONE {
                 ", name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';
+
+
     }
+    public int compareTo(Object that) {
+
+        // this method is called for current object
+        // we eill define our sorting logic
+
+    }
+
+
+
 }
 
 
