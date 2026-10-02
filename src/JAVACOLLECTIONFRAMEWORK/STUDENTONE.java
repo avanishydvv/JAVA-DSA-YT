@@ -12,6 +12,7 @@ public class STUDENTONE implements Comparable{
         this.age = age;
         this.weight = weight;
         this.name = name;
+
     }
 
     public void setAge(int age) {
@@ -38,6 +39,8 @@ public class STUDENTONE implements Comparable{
         return name;
     }
 
+
+
     @Override
     public String toString() {
         return "STUDENTONE{" +
@@ -48,15 +51,20 @@ public class STUDENTONE implements Comparable{
 
 
     }
-    public int compareTo(Object that) {
+//    public int compareTo(STUDENTONE that) {
+//
+//        // this method is called for current object
+//        // we eill define our sorting logic
+//        return this.age - that.age;
+//    }
 
-        // this method is called for current object
-        // we eill define our sorting logic
+
+    @Override
+    public int compareTo(STUDENTONE that) {
+
+        return this.age - that.age;
 
     }
-
-
-
 }
 
 
