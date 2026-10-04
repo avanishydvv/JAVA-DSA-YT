@@ -43,12 +43,16 @@ public class BITWISEOPERATOR {
         // power of 2 hai ya nahi hai
         // ye batata hai ye
 
-        int n =15;
-        if((n&(n-1) ) == 0) {
-            System.out.println("Power of 2 hai");
-        }
-        else{
-            System.out.println("Power of 2 nahi hai");
-        }
+//        int n =15;
+//        if((n&(n-1) ) == 0) {
+//            System.out.println("Power of 2 hai");
+//        }
+//        else{
+//            System.out.println("Power of 2 nahi hai");
+//        }
+
+// lec 26 is completed
+
+
     }
 }
