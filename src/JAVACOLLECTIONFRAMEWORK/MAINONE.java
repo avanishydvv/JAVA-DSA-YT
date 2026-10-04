@@ -15,11 +15,11 @@ public class MAINONE {
             studentss.add(new STUDENTONE(16,"amit",78));
             studentss.add(new STUDENTONE(45,"akhil",68));
             studentss.add(new STUDENTONE(66,"ayush",28));
-
-            System.out.println(studentss);
-
-
-            Collections.sort(studentss);
+//
+//            System.out.println(studentss);
+//
+//
+//            Collections.sort(studentss);
 
 
 
