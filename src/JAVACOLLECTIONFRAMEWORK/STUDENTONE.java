@@ -1,6 +1,6 @@
 package JAVACOLLECTIONFRAMEWORK;
 
-public class STUDENTONE implements Comparable{
+public class STUDENTONE{
     public int age;
     public String name;
     public int weight;
@@ -59,12 +59,12 @@ public class STUDENTONE implements Comparable{
 //    }
 
 
-    @Override
-    public int compareTo(STUDENTONE that) {
-
-        return this.age - that.age;
-
-    }
+//    @Override
+//    public int compareTo(STUDENTONE that) {
+//
+//        return this.age - that.age;
+//
+//    }
 }
 
 
