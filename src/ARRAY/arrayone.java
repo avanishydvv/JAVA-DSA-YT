@@ -1,5 +1,7 @@
 package ARRAY;
 
+import java.util.Arrays;
+
 public class arrayone {
 
     // To find the average of all elements of array
@@ -46,7 +48,7 @@ public class arrayone {
         return false;
     }
 
-    static int maxelement(int arr[]){
+    static int maxelement(int arr[]) {
         int max = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
@@ -69,7 +71,21 @@ public class arrayone {
                 negativeSum += arr[i];
             }
         }
-        int  ans[]={positiveSum,negativeSum};
+        int ans[] = {positiveSum, negativeSum};
+        return ans;
+    }
+
+    static int[] CountZeroOne(int arr[]) {
+        int ZeroSum = 0;
+        int onecount = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                ZeroSum++;
+            } else {
+                onecount++;
+            }
+        }
+        int ans[] = {ZeroSum, onecount};
         return ans;
     }
 
@@ -91,10 +107,9 @@ public class arrayone {
 
 
 
-
     public static void main(String[] args) {
 
-       int[] arr = {1, 2, -3, 4, -5, 6, 7, -8, 9};
+//       int[] arr = {1, 2, -3, 4, -5, 6, 7, -8, 9};
 //
 //        // Average
 //        System.out.println("Average = " + getAverage(arr));
@@ -116,5 +131,12 @@ public class arrayone {
 //        int ans[] = sumOfPosandNegative(arr);
 //        System.out.println("PositiveSum: "+ans[0]);
 //        System.out.println("NegativeSum: "+ans[1]);
+//        int arr[]={0,1,0,1,1,1,1,0,1,0,0,1};
+//        int ans[]= CountZeroOne(arr);
+//        System.out.println("CountZero: "+ans[0]);
+//        System.out.println("CountOnes: "+ans[1]);
+
+
+
     }
 }
