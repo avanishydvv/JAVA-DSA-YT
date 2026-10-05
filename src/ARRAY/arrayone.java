@@ -58,6 +58,22 @@ public class arrayone {
     }
     // homework -> Math.max()
 
+    static int[] sumOfPosandNegative(int arr[]) {
+        int size = arr.length;
+        int positiveSum = 0;
+        int negativeSum = 0;
+        for (int i = 0; i < size; i++) {
+            if (arr[i] > 0) {
+                positiveSum += arr[i];
+            } else {
+                negativeSum += arr[i];
+            }
+        }
+        int  ans[]={positiveSum,negativeSum};
+        return ans;
+    }
+
+
 
 
 
@@ -78,7 +94,7 @@ public class arrayone {
 
     public static void main(String[] args) {
 
-       int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+       int[] arr = {1, 2, -3, 4, -5, 6, 7, -8, 9};
 //
 //        // Average
 //        System.out.println("Average = " + getAverage(arr));
@@ -96,7 +112,9 @@ public class arrayone {
 //        boolean searchResult = searchElement(arr, 9);
 //
 //        System.out.println("Element found = " + searchResult);
-        System.out.println(maxelement(arr));
-
+//        System.out.println(maxelement(arr));
+//        int ans[] = sumOfPosandNegative(arr);
+//        System.out.println("PositiveSum: "+ans[0]);
+//        System.out.println("NegativeSum: "+ans[1]);
     }
 }
