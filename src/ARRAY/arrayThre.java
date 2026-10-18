@@ -30,6 +30,9 @@ public class arrayThre {
         return arr;
     }
 
+
+
+
     static int missingElement(int[] arr) {
 
         int n=arr.length;
